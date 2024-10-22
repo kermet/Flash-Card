@@ -1,15 +1,21 @@
 :root {
-    --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --text-color: #00e6ee;
+    --card-front-color: #160644;
+    --card-back-color: #a567cf;
 }
 body {
-    background: url('img/bg-desktop.webp');
+    background: url('img/bg-desktop.jpg');
     font-family: Bai Jamjuree;
-}
+}  
+
 #container {
-    display:flex ;
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 4rem;
+     gap: 3rem;
 }
+
 .cartao:hover .cartao__conteudo {
     transform: rotateY(180deg);
  }
@@ -42,7 +48,7 @@ footer p{
 }
 .cartao {
     margin: 1rem 1rem;
-    background-color: aqua;
+    background-color: rgb(40, 7, 92);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% -6rem);
