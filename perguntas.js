@@ -1,6 +1,6 @@
 criaCartao(
     'Matemática',
-    'qQuanto é 1+1',
+    'Quanto é 1+1?',
     '1+1=2'
 )
 
@@ -12,12 +12,12 @@ criaCartao(
 
 criaCartao(
     'Portugues',
-    'Quem escreve ?',
-    'Uma função é um bloco de código que executa alguma tarefa'
+    'Quem escreveu Drácula?',
+    'Bram Stoker'
 )
 
 criaCartao(
-    'Lingua inglesa',
-    'Como se diz OI em inglês?',
-    'Oi em ingles é HI (RAI)'
+    'história',
+    'Quando os portugueses chegaram ao Brasil?',
+    'Em 1500'
 ) 
